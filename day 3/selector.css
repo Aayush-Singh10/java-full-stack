@@ -1,0 +1,18 @@
+div{
+    color: bisque;
+}
+#div4{
+
+    color: blue;
+}
+.div2{
+    border: 1px solid black;
+}
+b,i,del,.class{
+    display: block;
+    margin: 50px;
+}
+*{
+    background-color: aliceblue;
+    margin: 10px;
+}

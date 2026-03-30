@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form2</title>
+</head>
+<body>
+    <form action="" method="" target="">
+    <fieldset>
+        <legend>basic info</legend>
+         <label for="username">username</label>
+        <input type="text" name="username" id="username"><br><br>
+         <label for="fathername">fathername</label>
+        <input type="text" name="fathername" id="fathername"><br><br>
+         <label for="mother name">mother name</label>
+        <input type="text" name="mother name" id="mother name"><br><br>
+         <label for="dob">date of birth</label>
+        <input type="date" name="dob" id="dob"><br><br>
+        <label for="age">age</label>
+        <input type="number" name="age" id="age" min="18" max="25"><br><br>
+        <label for="gender">gender</label>
+        <input type="radio" name="gender" id="gender" value="male">male
+         <input type="radio" name="gender" id="gender" value="female">female
+          <input type="radio" name="gender" id="gender" value="other">other
+    </fieldset>
+    <fieldset>
+        <legend>contact info</legend>
+        <label for="photo">port folio</label>
+        <input type="file" name="photo" id="photo" accept="image/*">
+        <label for="email">email</label>
+        <input type="email" name="email" id="email"><br><br>
+         <label for="phone">phone</label>
+        <input type="tel" name="phone" id="phone"><br><br>
+         <label for="linkedin">url</label>
+        <input type="url" name="linkedin" id="linkedin"><br><br>
+        <label for="address">address</label>
+        <textarea name="address" id="address" rows="5" cols="20"></textarea>
+    </fieldset>
+    <fieldset>
+        <legend>hobbies & favourite</legend>
+        <label for="lang">favourite</label>
+       <input type="checkbox" name="lang" id="lang" value="java">java
+       <input type="checkbox" name="lang" id="lang" value="c"> c 
+       <input type="checkbox" name="lang" id="lang" value="python" disabled>python
+
+       <br><br>
+
+       <label for="food">food</label>
+          <select name="food" id="food">
+            <option value="select food item" disabled > select food item</option>
+            <optgroup label="veg">
+            <option value="idly">idly</option>
+               <option value="dosa">dosa</option>
+                  <option value="upma">upma</option>
+                  </optgroup>
+<optgroup>
+                     <option value="idly">idly</option>
+                        <option value="idly">idly</option>
+                        </optgroup>
+
+          </select> 
+
+          <label for="pets">pets</label>
+          <input list="pets">
+          <datalist id="pets">
+            <option value="dog"></option>
+             <option value="cat"></option>
+              <option value="cow"></option>
+               <option value="lion"></option>
+
+          </datalist>
+    </fieldset>
+
+    <button type="submit">submit</button>
+    <button type="reset">reset</button>
+    </form>
+    
+</body>
+</html>
+<!-- 
+input   type----text
+                password
+                number
+                email
+                tel
+                url
+                search
+                time , month , week
+                datetime
+                datetime-local , file , radio , checkbox, submit ,reset, button , hidden, color , range
+
+-->
+
+<!-- 
+select-------it won't support custom input
+              dropdown
+datalist====== it will support custom support
+              input+suggestions+dropdown
+ -->

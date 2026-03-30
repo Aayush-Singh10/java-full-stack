@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+ box-sizing: border-box;
+ /* box-sixing - that control how the width and height
+                    of an element should be calculates
+                    
+                    default: content- box
+         content box = width + padding- right padding-left padding
+         
+         border box; */
+
+}
+#div{
+    border: 1px solid black;
+    margin: 10px;
+}
+#div2{
+    border: 4px solid black;
+    height: 40px;
+    width: 100px;
+    padding: 2px;
+    
+}
+.parent{
+    background-color: blue;
+
+}
+.child{
+    border: 1px solid red;
+}
+
+     /* .parent .child{ */
+    /* color: beige; */
+
+/* }   all child== decendent selector for both beech me space parent and child  v*/
+
+
+/* child selector== direct child select krtah keval */
+.parent>.child{
+    color: aliceblue;
+}
+
+/* .d1 + p{ */
+    /* background-color: red; */
+/* }    adjacent sibling   ==== immediate sibling*/
+
+
+.d1 ~ p{
+    background-color: blue;
+}
+/* general sibling all sibling */
+
+
+
+/* attribute selector */
+input[type="text"]{
+    background-color: red;
+}
+
+.a123{
+    color: "red";
+    
+}
+
+/* 
+id-------#
+
+class------.
+element----tagname
+grouping----s1,s2,s3
+universal-----*
+descendent---p c---all child
+child------p>c -----only direct child
+adjacent sibling------brother+sister------->next sister
+general sibling-------brother~sister------->all sister
+attribute selector-----select for attribute*/
+
+
+/* note= names need to start with a-z,A-Z,-,_ */
