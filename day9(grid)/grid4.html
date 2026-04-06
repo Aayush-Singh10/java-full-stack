@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.container{
+    border: 1px solid black;
+    min height: 100vh;
+    
+    display:grid;
+    grid-template-areas:"one one one"
+                        "two two three"
+                        "two two three"
+                        "four four four"
+     grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+
+}
+.one{
+    background-color: aqua;
+    grid-area: one;
+}
+.two{
+    background-color: pink;
+    grid-area: two;
+}
+.three{
+    background-color: red;
+    grid-area: three;
+}
+.four{
+    background-color: yellow;
+    grid-area: four;
+
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+<div class="one">navbar</div>
+<div class="two">main</div>
+<div class="three">section</div>
+<div class="four">footer</div>
+
+
+    </div>
+    
+</body>
+</html>

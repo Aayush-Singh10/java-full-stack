@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex 1</title>
+    <style>
+        .parent{
+            border: 1px solid black;
+            height: 600px;
+            font-size: 50px;
+            display: flex;
+            /* item arrange in direction with flex  by default value is row */
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items:flex-end;
+            /* gap: 10px; */
+
+            /* justify-content: flex-end; */
+              /* justify-content: center; */
+              /* for main axis */
+               
+
+/* align-items: center; */
+/* for cross axis */
+
+
+        }
+        .item{
+            height: 100px;
+            width: 100px;
+            border: 1px solid black;
+        }
+        .one{
+            background-color: yellow;
+        }
+        .two{
+            background-color: pink;
+
+        }
+        .three{
+            background-color: blue;
+        }
+        .four{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="item one">1</div>
+         <div class="item two">2</div>
+          <div class="item three">3</div>
+           <div class="item four">4</div>
+
+    </div>
+    
+</body>
+</html>
+
+<!--flex model is a one- dimensional layout(row,column)
+      flex container -----parent
+       flex items ---------child
+
+       in parent we provide property ==display:flex
+                              default direction- row
+                              change direction by -- flex direction
+
+
+                              main axis:- direction of flex item------justify content
+                              cross axis:-perpendicular to main-------align item
+         
+         direction : row
+              main axis --- x axis
+              cross axis ---Y axis
+              
+        direction : column
+                main axis --y axis
+                cross axis --x axis
+
+        
+   flex content : flex start
+                   center
+                   flex end
+                   flex 
+                               
+ -->

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.container{
+    border: 1px solid black;
+    min height: 100vh;
+    
+    display:grid;
+     grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+
+}
+.one{
+    background-color: aqua;
+    grid-column: 1/4;
+}
+.two{
+    background-color: pink;
+    grid-area: 2/1/4/3;
+}
+.three{
+    background-color: red;
+    grid-row: 2/4;
+}
+.four{
+    background-color: yellow;
+    grid-column: 1/4;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+<div class="one">navbar</div>
+<div class="two">main</div>
+<div class="three">section</div>
+<div class="four">footer</div>
+
+
+    </div>
+    
+</body>
+</html>

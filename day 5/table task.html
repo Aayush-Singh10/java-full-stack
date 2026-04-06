@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #table1{
+            border: 1px solid black;
+             border-collapse: collapse ;
+        }
+        #table2{
+            
+                border: 1px solid black;
+            
+        }
+        #table3{
+            border: 1px solid black;
+        }
+        td,th{
+            border: 1px solid black;
+        }
+        #head{
+            background-color: rgb(40, 156, 5);
+        }
+        #body{
+            background-color: chartreuse;
+        }
+        #row{
+            background-color: yellow;
+        }
+        #ninja{
+            background-color: palevioletred;
+        }
+
+    </style>
+</head>
+<body>
+    <caption>A table with mereged cells</caption>
+    <table id="table1">
+        <tr>
+            <th rowspan="2"></th>
+            <th colspan="2">average</th>
+            <th rowspan="2">REd EYES</th>
+        </tr>
+        <tr>
+            <th>height</th>
+            <th>weight</th>
+
+        </tr>
+        <tr>
+            <th>males</th>
+            <td>1.9</td>
+            <td>0.003</td>
+            <td>40%</td>
+        </tr>
+        <tr>
+            <th>females</th>
+            <td>1.7</td>
+            <td>0.002</td>
+            <td>43%</td>
+        </tr>
+    </table>
+    <br><br><br>
+    <hr>
+    <br><br><br>
+    <caption>Table with Uncollapsed Borders</caption>
+    <table id="table2">
+        <tr>
+            <th>name</th>
+            <th>Job Title</th>
+            <th>Email address</th>
+        </tr>
+        <tr>
+            <td>ayush</td>
+            <td>manager</td>
+            <td>ayhh@company.com</td>        
+        </tr>
+        <tr>
+              <td>shivam</td>
+              <td>market manager</td>
+              <td>fgfg@company.com</td>
+          </tr>
+          <tr>
+<td>shaharsh</td>
+<td>employee</td>
+<td>ufbhy@company.com</td>
+          </tr>
+
+
+    </table>
+    <br><br><br>
+    <hr>
+    <br><br><br>
+    <table id="table3">
+        <tr>
+            <th rowspan="2"></th>
+            <th>students</th>
+            <th colspan="3">details</th>
+        </tr>
+        <tr>
+            <th>id</th>
+            <th>name</th>
+<th>department</th>
+<th>roll number</th>
+ </tr>
+ <tr>
+    <td rowspan="4">students list</td>
+    <td>1</td>
+     <td>victor</td>
+     <td>cse</td>
+<td>123</td>
+</tr>
+<tr>    
+    <td>2</td>
+     <td>ayush</td>
+     <td>ece</td>
+<td>1234</td>
+
+</tr>
+<tr>
+        <td>3</td>
+     <td>shivam</td>
+     <td>it</td>
+<td>456</td>
+</tr>
+<tr>
+        <td>4</td>
+     <td>adarsh</td>
+     <td>civil</td>
+<td>654</td>
+</tr>
+    </table>
+    <br><br><br>
+    <hr>
+    <br><br><br>
+    <table id="table3">
+        <tr >
+            <th colspan="6">Time Table</th>
+        </tr>
+        <tr>
+            <th rowspan="6">Hours</th>
+            <th>MOn</th>
+            <Th>tue</Th>
+            <th>wed</th>
+            <th>thu</th>
+            <th>Fri</th>
+        </tr>
+        <tr>
+            <td>maths</td>
+            <td>science</td>
+            <td>maths</td>
+            <td>science</td>
+            <td>Arts</td>
+        </tr>
+        <tr>
+              <td>maths</td>
+            <td>science</td>
+            <td>maths</td>
+            <td>science</td>
+            <td>Arts</td>
+        </tr>
+        <tr>
+            <th colspan="5">Lunch</th>
+        </tr>
+        <tr>
+            <td>maths</td>
+            <td>science</td>
+            <td>maths</td>
+            <th rowspan="2" colspan="2">Projects</th>
+
+        </tr>
+        <tr>
+            <td>maths</td>
+            <td>science</td>
+            <td>maths</td>
+        </tr>
+    </table> 
+    <br><br><br>
+    <hr>
+    <br><br><br>
+    <table id="table3">
+        <tr>
+            <th>Item</th>
+            <th>Quantity</th>
+            <th>price</th>
+            <th>Extended</th>
+        </tr>
+        <tr>
+            <td>Hard disk</td>
+            <td>1</td>
+            <td>500$</td>
+            <td>400$</td>
+        </tr>
+        <tr>
+             <td>CD Drive</td>
+            <td>1</td>
+            <td>200$</td>
+            <td>500$</td>
+        </tr>
+        <tr>
+             <td>Cds</td>
+            <td>10</td>
+            <td>20$</td>
+            <td>50$</td>
+        </tr>
+        <tr>
+            <th colspan="3">Total Amount</th>
+            <th>950$</th>
+        </tr>
+    </table>
+    <br><br><br>
+    <hr>
+    <br><br><br>
+    <table id="table3">
+        <tr>
+            <th rowspan="3">Day</th>
+            <th colspan="3">Seminar</th>
+        </tr>
+        <tr>
+            <th colspan="2">Schedule</th>
+            <th rowspan="2">Topic</th>
+        </tr>
+        <tr>
+            <th>Begin</th>
+            <th>End</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Monday</td>
+            <td rowspan="2">8:00</td>
+            <td rowspan="2">5:00</td>
+            <td>Introduction to Xml</td>
+        </tr>
+        <tr>
+            <td>Validity DtD and Relax Ng</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Tuesday</td>
+            <td>8:00</td>
+            <td>11:00</td>
+            <td>Xpath</td>
+        </tr>
+        <tr>
+            <td>11:00</td>
+            <td>2:00</td>
+            <td rowspan="2">XSL Transformation</td>
+        </tr>
+        <tr>
+            <td>2:00</td>
+            <td>5:00</td>
+        </tr>
+
+    </table>
+    <br><br><br> <hr> <br><br><br>
+    <table id="table3">
+        <tr id="head">
+            <th>Product ID</th>
+             <th>Product Name</th>
+             <th>Product Quality</th>
+             <th>Product Quantity</th>
+        </tr>
+        <tr id="body">
+            <td>1</td>
+            <td>wheat</td>
+            <td>Good</td>
+            <td>200bags</td>
+
+        </tr>
+        <tr id="body">
+            <td>2</td>
+            <td>Rice</td>
+            <td>Good</td>
+            <td>250bags</td>
+
+        </tr>
+        <tr id="body">
+            <td>3</td>
+            <td>Sugar</td>
+            <td>Good</td>
+            <td>200bags</td>
+
+        </tr>
+        <tr id="body">
+            <td>3</td>
+            <td>Sugar</td>
+            <td>Good</td>
+            <td>200bags</td>
+
+        </tr>
+        <tr id="body">
+            <td>3</td>
+            <td>Sugar</td>
+            <td>Good</td>
+            <td>200bags</td>
+
+        </tr>
+        <tr id="body">
+            <td>3</td>
+            <td>Sugar</td>
+            <td>Good</td>
+            <td>200bags</td>
+
+        </tr>
+    </table> <br><br><br> <hr><br><br><br>
+    <table id="table3">
+         <caption>Ninja Details </caption>
+        <tr id="row">
+            <th>Name</th>
+            <th>Age</th>
+            <TH>Grade</TH>
+        </tr>
+        <tr>
+            <td id="ninja">Ninja A</td>
+            <td>18</td>
+            <td>B</td>
+
+        </tr>
+        <tr>
+            <td>Ninja B</td>
+            <td>23</td>
+            <td>C</td>
+        </tr>
+         <tr>
+            <td>Ninja c</td>
+            <td>22</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <th colspan="3">Ninja C- the best learner!</th>
+        </tr>
+    </table>
+</body>
+</html>
