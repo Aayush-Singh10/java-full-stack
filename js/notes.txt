@@ -1,0 +1,232 @@
+javaScript:-
+          It is scripting language
+          used to create dynamic(BEHAVIOUR/functionalities) and interactive webpage/application
+          it is used as client(ui) and server side(node js) language
+          it is a synchornous language(it executes the code
+          line by line)
+
+          it is a case sensitive
+
+javaScript is used in:-
+                    react js ----library
+                    node Js -----server
+                    angular js---framework
+
+    
+
+
+synchornous:-30+10=40
+asynchornous:-30,10=30
+
+        two stack 
+                   MERN
+                   MEAN
+
+
+
+we can add Js in our webpage:-
+                             1. inline Js
+                             2. internal Js
+                             3. External Js
+
+
+
+Tokens:- building blocks of a program
+         1. keywords
+         2. Identifiers
+         3. values/data/literals
+         4. variable
+         5. operators
+         6. separators
+
+
+
+1.keywords= reserved words/ pre defined words
+ ex:- let, var, const, function, if , for, while etc
+======================================================================================
+
+2. Identifiers=  names providing to the variables , objects, function,list etc
+
+rules:-
+1. names can'nt start with number
+2. names can'nt start with special character(except _,$)
+3. don'nt provides space between name 
+4. keywords not allowed for names
+5. should be short , simple and meaningful
+================================================================
+
+3.literals/value/data
+                   number : 10, -20, 46.89
+                   string : group of characters
+                          :"xyx" ,'xdf' , `ghj`(pack tick/template string ----used for interpolation)
+                   boolean : true/ false 
+                   null
+                   undefined
+                   array  :[10, 20 ,30]
+                   objects:{
+                             "key1"=value1,
+                              "key2"=value2
+                                      }
+
+
+data divided into two types 
+           1.primitive data types:- storing single value
+              number
+              strings
+              boolean
+              null
+              undefined
+              symbol
+              bigint
+           2.non-primitive data type:-syoring in the format of collection
+              objects
+              Json
+              arrays
+              map
+              set 
+
+
+note==  typeof operator help to know the datatype / literal type
+============================================================
+
+
+
+
+
+variable:- It is container used to store to data/value
+
+declaration of data(providing names)
+  1.  variable
+   2.  let
+    3. const
+
+    assigning/initializing the variable:-
+----------------------------
+let a;
+a=10
+
+re declaring the variable
+--------------
+let a;
+let a;
+
+
+re-assigning/re-initializing the variable
+----------------
+let a;
+a=10;//assigning
+a='xyz' //re-assigning
+
+hosting the variable:- printing the value before assigning
+                 it is a BEHAVIOUR where   variable and function declarations are moved to top of the scope
+
+                 let a;
+                 console.log(a);
+
+                 a=10;
+
+===========================================================================
+
+                     var                     let                     const
+    ---------------------------------------------------------------------------------
+     scope           function                 block                   block
+     ---------------------------------------------------------------------------------
+     re-declare      yes                       no                     no
+     ---------------------------------------------------------------------------------
+     re-assign       yes                       yes                     no
+     ---------------------------------------------------------------------------------
+     declaring 
+     without assign  undefined                 undefined              error
+     (assigning)      optional                 optional                mandatory
+     ---------------------------------------------------------------------------------
+     hoisting         yes                        yes                    yes 
+
+=================================================================================================
+
+
+5. operators:- it is symbol used to perform operations on value(operands)
+ 
+    1. Arithmetic operator :-
+                            (+,-,*,/,%,**)
+
+       note:-  + act like concatination(merging) with string
+                   `${}` acts like concatination ------interpolation
+
+       operator presedence:
+                        ()
+                        **
+                        * / %
+                        + -
+
+                                                    
+    
+    2. Assignment operator/compound assignment operator:-
+                       =,+=, -=,*=,/=,**=
+    
+    3. comparision operator / relational operator
+                      <,>,<=,>=,==,===,!=,!==
+         note:
+               ==   check only values and ignores data type
+               ===  check both values and data type
+
+   4. logical operator:-
+                     &&,||, !
+
+   5. conditional operator/ternary operator:-
+                      operand1?operand2:operand3
+
+
+                      operand1------>conditiona
+                      operand2------>true
+                      operand3------->false
+
+   6.type of operator:
+                     used to know the data type of a literal/value
+
+ 7. unary operator:-
+               1.increment unary operator 
+                          (a) pre- increment:-
+                                   ++value
+                                   first increases the values, then use
+                           (b) post-increment:-
+                                   value++
+                                   first it uses the values, then increase  
+               2.decrement unary operator 
+                          (a) pre-decrement:-
+                                   --value
+                                   first decrease the values, then use
+                           (b) post-decrement:-
+                                   value--
+                                   first it uses the value, then decrease     
+
+
+========================================================================================================
+
+conditional statements:
+  ===================
+              used to make decisions
+                
+                 types:-
+                     if statements:- when conditions satisfy block of code will execute
+
+                                syntax:- if(condition){
+                                 //code
+                                }
+
+
+
+                     else if statements:-if condition satisfy if block will execute,
+                                         if condition is not satisfy then else block will execute
+
+                                         syntax:-
+                                               if(condition){
+                                                //true
+                                               }
+                                               else{
+                                                //false
+                                               }
+                           note:- without if , we can'nt use else keyword
+                                    
+                     else if ladder statements
+                     nested if statements
+                     switch statements
